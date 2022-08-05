@@ -45,7 +45,7 @@ func newNativeCodeService(chainAddr string, contract code.Contract) *nativeCodeS
 
 func (s *nativeCodeService) bridgeCall(method string, request proto.Message, response proto.Message) error {
 	// NOTE sync with contract.proto's package name
-	fullmethod := "/xchain.contract.svc.Syscall/" + method
+	fullmethod := "/protos.Syscall/" + method
 	return s.rpcClient.Invoke(context.Background(), fullmethod, request, response)
 }
 
