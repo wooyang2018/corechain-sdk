@@ -3,7 +3,7 @@ package code
 import (
 	"math/big"
 
-	"github.com/wooyang2018/corechain-sdk/protos"
+	"github.com/wooyang2018/corechain/protos"
 )
 
 // Context is the context in which the contract runs

@@ -2,7 +2,7 @@ package exec
 
 import (
 	"github.com/wooyang2018/corechain-sdk/code"
-	"github.com/wooyang2018/corechain-sdk/protos"
+	"github.com/wooyang2018/corechain/protos"
 )
 
 var (
